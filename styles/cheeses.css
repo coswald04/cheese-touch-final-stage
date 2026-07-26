@@ -33,3 +33,20 @@ body {
         background: var(--panel);
       }
     }
+        @media (prefers-reduced-motion: no-preference) {
+    .fresh-image {
+        view-transition-name: fresh-cheese;
+    }
+
+    .soft-image {
+        view-transition-name: soft-cheese;
+    }
+
+    .blue-image {
+        view-transition-name: blue-cheese;
+    }
+
+    .hard-image {
+        view-transition-name: hard-cheese;
+    }
+    }
