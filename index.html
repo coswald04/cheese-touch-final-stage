@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Cheese Society - Home </title>
+  <link rel = "stylesheet" href="styles/global.css">
+  <link rel = "stylesheet" href = "styles/home.css">
+  <link rel = "stylesheet" href = "styles/tokens.css">
+  <link rel = "stylesheet" href = "styles/site.css">
+</head>
+<body>
+  <header>
+    <h1> CSE Cheese Society <img class = "site-logo" src = "images/logo.svg" alt = "Cheesy CSE Cheese Society Logo"> </h1>
+    <p> by The CSE Cheese Society. Last updated <time datetime = "2026-01"> January 2026. </time> </p>
+  </header>
+
+  <nav>
+    <p> <strong>Explore!</strong> </p>
+    <ul>
+        <li><a href="guide/index.html">Guide</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="join.html">Join</a></li>
+    </ul> 
+  </nav>
+
+  <main>
+    <h2>Welcome</h2>
+    <p>
+        Cheese is one of humanity's oldest prepared foods. People have made it
+        for at least 7,000 years, long before written history. 
+    </p>
+    <p> <a href = "guide/index.html"> Read the cheese guide </a></p>
+    <h2> Cheese Fact</h2>
+    <button commandfor = "cheese-fact" command="toggle-popover"> Show Cheese Fact </button>
+    <section id = "cheese-fact" popover>
+        <p>
+            At its core, cheese is simple: milk, salt, cultures, and rennet. 
+            Time and technique do the rest.
+        </p>
+    </section>
+  </main>
+
+  <aside>
+    <h2>Cheese of the Month</h2>
+    <figure>
+      <img src="images/cheese-blue.svg" alt="Illustration of blue cheese">
+      <figcaption>Blue cheese: salty, sharp, and divisive.</figcaption>
+    </figure>
+  </aside>
+
+  <footer>
+    <p> <em> &copy; 2026 The CSE Cheese Society. Cheese responsibly.</em> </p>
+  </footer>
+</body>
+</html>

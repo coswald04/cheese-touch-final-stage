@@ -1,0 +1,7 @@
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+}
+.site-logo {
+    width: 3rem;
+    height: auto;
+  }

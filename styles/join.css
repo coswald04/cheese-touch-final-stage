@@ -1,0 +1,79 @@
+body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100svh;
+
+      > header {
+        padding: var(--space-2) var(--space-3);
+        border-block-end: var(--border);
+        background: var(--panel);
+      }
+
+      > nav {
+        text-align: center;
+        border-block-end: var(--border);
+        background: var(--panel);
+      }
+
+      > main {
+         flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: var(--space-3);
+      }
+
+      > footer {
+        padding: var(--space-2) var(--space-3);
+        border-block-start: var(--border);
+        background: var(--panel);
+        text-align: center;
+      }
+
+    .join-card {
+        --card-width: 28rem;
+
+        max-width: var(--card-width);
+        width: 100%;
+        padding: var(--space-3);
+        border: var(--border);
+        background: var(--panel);
+  
+
+        > form {
+            margin-block-start: var(--space-2);
+        }
+
+        form > p,
+        fieldset {
+            margin-block: var(--space-2);
+        }
+
+        > label {
+            display: block;
+            margin-block-end: var(--space-1);
+        }
+
+        .join-card input,
+        .join-card select {
+            width: 100%;
+        }
+
+        .join-card input[type="checkbox"] {
+            width: auto;
+        }
+
+        .join-card input[type="checkbox"] + label {
+            display: inline;
+        }
+
+        dialog {
+            max-width: 28rem;
+            padding: var(--space-3);
+            border: var(--border);
+            border-block-start: var(--rule);
+            background: var(--panel);
+        }
+
+    }
+}
